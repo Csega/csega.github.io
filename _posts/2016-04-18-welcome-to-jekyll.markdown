@@ -4,7 +4,7 @@ title:  "First post!"
 date:   2016-04-18 15:37:11 +0200
 categories: mypost
 ---
-	This is my first post, which is the edited example page from Jekyll. So I definitely will try the syntax highlight! :) First, with Python, because I use Python quite often. I am very curious, whether I have to do any more at GitHub or it will work out of the box. 
+This is my first post, which is the edited example page from Jekyll. So I definitely will try the syntax highlight! :) First, with Python, because I use Python quite often. I am very curious, whether I have to do any more at GitHub or it will work out of the box. 
 
 So here is the Python code snippet, I hope it will work.
 
