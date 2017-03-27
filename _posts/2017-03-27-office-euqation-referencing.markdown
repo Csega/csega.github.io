@@ -18,16 +18,37 @@ I found a good guide about how to number your equations correctly and automatica
 
 As far as I know, these steps work for both Office 2013 and 2016 versions (as of now).
 
-1. Insert an equation (either using Alt+E+C+B or clicking on Equation on the Insert tab) and type the equation you want. ![Insert equation]({{ site.github.url }}/images/2017-03-27/insert-equation-office-2016.png)
+1. Insert an equation (either using Alt+E+C+B or clicking on Equation on the Insert tab) and type the equation you want.
 
-2. There are two ways here. If you use Office 2016, you can easily make a choice like this: ![Equation numbering in Office 2016]({{ site.github.url }}/images/2017-03-27/numbering-office-2016.png). After hitting Enter, you will get this nice layout, automatically: ![Office 2016 equation layout]({{ site.github.url }}/images/2017-03-27/office-2016-layout.png). If you use Office 2013, you have to play with the tabulator settings, like this:
+![Insert equation]({{ site.github.url }}/images/2017-03-27/insert-equation-office-2016.png)
+
+2. There are two ways here. If you use Office 2016, you can easily make a choice like this:
+
+![Equation numbering in Office 2016]({{ site.github.url }}/images/2017-03-27/numbering-office-2016.png).
+
+After hitting Enter, you will get this nice layout, automatically:
+
+![Office 2016 equation layout]({{ site.github.url }}/images/2017-03-27/office-2016-layout.png).
+
+If you use Office 2013, you have to play with the tabulator settings, like this:
+
 ![Equation numbering in Office 2013]({{ site.github.url }}/images/2017-03-27/numbering-office-2013.png).
+
 Note the two tabulator markers at the ruler. Only use them after you added the equation label, using the "Exclude label from caption" option, otherwise you can start placing the markers all over again.
 
-3. After you did this, if you reference to your equation using the normal reference settings, you will get the following result: ![Equation referencing bad]({{ site.github.url }}/images/2017-03-27/reference-numbering-bad.png).
-This does not look good at all! Let's do it better!
+3. After you did this, if you reference to your equation using the normal reference settings, you will get the following result:
 
-4. Instead of using the method written in the previous point, it is better to use the bookmark option.
+![Equation referencing bad]({{ site.github.url }}/images/2017-03-27/reference-numbering-bad.png).
+
+And even if you delete everything else and leave just the equation number and the brackets there, if you update the fields in your document, it will change back to the form you see above. This does not look good at all! Let's do it better!
+
+4. Instead of using the method written in the previous point, it is better to use the bookmark option. After you completed the first two options from this list, you have to select the **(1)** part of the equation (the number may vary depending on the actual number of the equation, but that does not matter, since it is automatically generated). Then choose the Insert -> Bookmark option from the menu. Give it an identifier (like eq1 or eq_matter-energy), then click *Ok*. Now you can refer to the equation in the proper form using the References -> Cross-reference option from the menu. Here, choose the bookmark option from the dropdown-menu and the name of the equation bookmark. Then click *Ok*. You can see the result below.
+
+![Equation referencing good]({{ site.github.url }}/images/2017-03-24/reference-numbering-good.png)
+
+5. There you go! Now if you update your fields in the document, it will look the same, don't worry. Here is an image about both the ugly and the pretty outcome. Since I have a Hungarian Office 2016, I did not want to insert the other widgets with buttons on them, since this post is in English. But if there is a request, I can add those figures as well. Just send me a PM. ;)
+
+![Equation referencing both]({{ site.github.url }}/images/2017-03-24/reference-numbering-both.png)
 
 [office2016-eq-num]: https://blogs.msdn.microsoft.com/murrays/2015/05/14/equation-numbering-in-office-2016/
 [mathjax]: http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/
