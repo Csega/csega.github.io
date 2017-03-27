@@ -8,14 +8,11 @@ categories: mypost
 
 I haven't written anything for a long time. Sorry, my bad. However, I'm writing my PhD thesis these days and for some reasons I chose Microsoft Office to do that. Some might say, that LaTeX is much better, which is true in some sense. The main reason I chose Office is that I know it better, than the whole TeX system and I find much faster to type and format the material, even if it's not *that* pretty at the end. The figure and section references work quite well. I cannot even say very bad things about the referencing system. In Office 2013 I can choose the IEEE form (which was not present in the earlier versions like Office 2010), which is the common referencing format in my field. And using BibTex I can export my reference databases to Office 2007 format, which I can import in Office 2013/16. So things changed for the better over the years.
 
-But there is always a *"but"*. And this but is about the equation referencing. The common solution for the equation numbering is to use brackets and a number in between, like the following (I use [MathJax][mathjax] here, but as of now it does not work. It seems, that this is a common problem, not just at the Office household. :)).
+But there is always a *"but"*. And this but is about the equation referencing. The common solution for the equation numbering is to use brackets and a number in between, like the following (I use [MathJax][mathjax] here).
 
-$$E = M \cdot c^2 \label{matter-energy}$$
+$$E = M \cdot c^2 \label{eq:matter-energy}$$
 
-$$E = M \cdot c^2$$
-
-The equation number is \ref{matter-energy}
-I found a good guide about how to number your equations correctly and automatically ([this one][office2016-eq-num]), which explains it really well, but since it was a real nightmare until I succeeded, I try to give a longer, but more understandable version of it. Or rather let's just say it's my version of it. :) And I'd like to learn to use GitHub Pages and Jekyll. :) (Not to mention my English writing skills, as you can see reading the text above.) So in the end, after a long search and the trial-and-error method, I found a quite good solution, but I hope, that the future versions of Office will deal about this problem. I think, it wouldn't require much effort from the developers. In the first round, I would be happy, if these steps were work automatically, in one step.
+And when I later want to refer to that equation, I just use the reference and say, like, the number of the equation is \ref{eq:matter-energy}. I found a good guide about how to number your equations correctly and automatically ([this one][office2016-eq-num]), which explains it really well, but since it was a real nightmare until I succeeded, I try to give a longer, but more understandable version of it. Or rather let's just say it's my version of it. :) And I'd like to learn to use GitHub Pages and Jekyll. :) (Not to mention my English writing skills, as you can see reading the text above.) So in the end, after a long search and the trial-and-error method, I found a quite good solution, but I hope, that the future versions of Office will deal about this problem. I think, it wouldn't require much effort from the developers. In the first round, I would be happy, if these steps were work automatically, in one step.
 
 # How to do it?
 
