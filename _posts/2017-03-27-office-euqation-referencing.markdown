@@ -44,11 +44,11 @@ And even if you delete everything else and leave just the equation number and th
 
 * Instead of using the method written in the previous point, it is better to use the bookmark option. After you completed the first two options from this list, you have to select the **(1)** part of the equation (the number may vary depending on the actual number of the equation, but that does not matter, since it is automatically generated). Then choose the Insert -> Bookmark option from the menu. Give it an identifier (like eq1 or eq_matter-energy), then click *Ok*. Now you can refer to the equation in the proper form using the References -> Cross-reference option from the menu. Here, choose the bookmark option from the dropdown-menu and the name of the equation bookmark. Then click *Ok*. You can see the result below.
 
-![Equation referencing good]({{ site.github.url }}/images/2017-03-24/reference-numbering-good.png)
+![Equation referencing good]({{ site.github.url }}/images/2017-03-27/reference-numbering-good.png)
 
 * There you go! Now if you update your fields in the document, it will look the same, don't worry. Here is an image about both the ugly and the pretty outcome. Since I have a Hungarian Office 2016, I did not want to insert the other widgets with buttons on them, since this post is in English. But if there is a request, I can add those figures as well. Just send me a PM. ;)
 
-![Equation referencing both]({{ site.github.url }}/images/2017-03-24/reference-numbering-both.png)
+![Equation referencing both]({{ site.github.url }}/images/2017-03-27/reference-numbering-both.png)
 
 [office2016-eq-num]: https://blogs.msdn.microsoft.com/murrays/2015/05/14/equation-numbering-in-office-2016/
 [mathjax]: http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/
