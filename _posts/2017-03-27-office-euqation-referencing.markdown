@@ -20,9 +20,12 @@ As far as I know, these steps work for both Office 2013 and 2016 versions (as of
 
 1. Insert an equation (either using Alt+E+C+B or clicking on Equation on the Insert tab) and type the equation you want. ![Insert equation]({{ site.github.url }}/images/2017-03-27/insert-equation-office-2016.png)
 
-2. There are two ways here. If you use Office 2016, you can easily make a choice like this: ![Equation numbering in Office 2016]({{ site.github.url }}/images/2017-03-27/numbering-office-2016.png). After hitting Enter, you will get this nice layout, automatically: ![Office 2016 equation layout]({{ site.github.url }}/images/2017-03-27/office-2016-layout.png). If you use Office 2013, you have to play with the tabulator settings, like this: ![Equation numbering in Office 2013]({{ site.github.url }}/images/2017-03-27/numbering-office-2013.png). Note the two tabulator markers at the ruler. Only use them after you added the equation label, using the "Exclude label from caption" option, otherwise you can start placing the markers all over again.
+2. There are two ways here. If you use Office 2016, you can easily make a choice like this: ![Equation numbering in Office 2016]({{ site.github.url }}/images/2017-03-27/numbering-office-2016.png). After hitting Enter, you will get this nice layout, automatically: ![Office 2016 equation layout]({{ site.github.url }}/images/2017-03-27/office-2016-layout.png). If you use Office 2013, you have to play with the tabulator settings, like this:
+![Equation numbering in Office 2013]({{ site.github.url }}/images/2017-03-27/numbering-office-2013.png).
+Note the two tabulator markers at the ruler. Only use them after you added the equation label, using the "Exclude label from caption" option, otherwise you can start placing the markers all over again.
 
-3. After you did this, if you reference to your equation using the normal reference settings, you will get the following result: ![Equation referencing bad]({{ site.github.url }}/images/2017-03-27/reference-numbering-bad.png). This does not look good at all! Let's do it better!
+3. After you did this, if you reference to your equation using the normal reference settings, you will get the following result: ![Equation referencing bad]({{ site.github.url }}/images/2017-03-27/reference-numbering-bad.png).
+This does not look good at all! Let's do it better!
 
 4. Instead of using the method written in the previous point, it is better to use the bookmark option.
 
