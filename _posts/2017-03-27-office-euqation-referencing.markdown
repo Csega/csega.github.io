@@ -12,6 +12,8 @@ But there is always a *"but"*. And this but is about the equation referencing. T
 
 $$ E = M \cdot c^2 $$ {#eq:matter-energy}
 
+$$ E = M \cdot c^2 $$
+
 I found a good guide about how to number your equations correctly and automatically ([this one][office2016-eq-num]), which explains it really well, but since it was a real nightmare until I succeeded, I try to give a longer, but more understandable version of it. And I'd like to learn to use GitHub Pages and Jekyll. :) (Not to mention my English writing skills, as you can see reading the text above.) So in the end, after a long search and the trial-and-error method, I found a quite good solution, but I hope, that the future versions of Office will deal about this problem. I think, it wouldn't require much effort from the developers. In the first round, I would be happy, if these steps were work automatically, in one step.
 
 # How to do it?
