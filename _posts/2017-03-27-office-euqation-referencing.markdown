@@ -10,7 +10,7 @@ I haven't written anything for a long time. Sorry, my bad. However, I'm writing 
 
 But there is always a *"but"*. And this but is about the equation referencing. The common solution for the equation numbering is to use brackets and a number in between, like the following (I use [MathJax][mathjax] here).
 
-$$ E = m \cdot c^2 $$ {#eq:matter-energy}
+$$ E = m \cdot c^2 $$
 
 I found a good guide about how to number your equations correctly and automatically ([this one][office2016-eq-num]), however, the referencing were always a pain in the ass. After a long search, I found a quite good solution, but I hope, that the future versions of Office will deal about this problem. I think, it wouldn't require much effort from the developers. In the first round, I would be happy, if these steps were work automatically, in one step.
 
