@@ -18,4 +18,4 @@ twitter_username: Csega2
 github_username:  csega
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
