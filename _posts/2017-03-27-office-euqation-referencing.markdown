@@ -10,7 +10,10 @@ I haven't written anything for a long time. Sorry, my bad. However, I'm writing 
 
 But there is always a *"but"*. And this but is about the equation referencing. The common solution for the equation numbering is to use brackets and a number in between, like the following (I use [MathJax][mathjax] here).
 
-$ E = m \cdot c^2 $
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
 
 {#eq:matter-energy}
 
