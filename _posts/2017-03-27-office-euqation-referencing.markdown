@@ -18,7 +18,7 @@ I found a good guide about how to number your equations correctly and automatica
 
 As far as I know, these steps work for both Office 2013 and 2016 versions (as of now).
 
-1. Insert an equation (either using Alt+E+C+B or clicking on Equation on the Insert tab) and type the equation you want. ![Insert equation]({{ site.url }}/images/2017-03-27/insert-equation-office-2016.png)
+1. Insert an equation (either using Alt+E+C+B or clicking on Equation on the Insert tab) and type the equation you want. ![Insert equation]({{ site.github.url }}/images/2017-03-27/insert-equation-office-2016.png)
 
 This is my first post, which is the edited example page from Jekyll. So I definitely will try the syntax highlight! :) First, with Python, because I use Python quite often. I am very curious, whether I have to do any more at GitHub or it will work out of the box.
 
