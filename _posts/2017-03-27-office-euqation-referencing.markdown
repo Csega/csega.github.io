@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to reference equations properly in Office (2013, 2016)"
+title:  "How to reference equations properly in Microsoft Office (2013, 2016)"
 date:   2017-03-27 09:59:59 +0100
 categories: mypost
 ---
