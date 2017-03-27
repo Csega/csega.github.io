@@ -10,7 +10,7 @@ I haven't written anything for a long time. Sorry, my bad. However, I'm writing 
 
 But there is always a *"but"*. And this but is about the equation referencing. The common solution for the equation numbering is to use brackets and a number in between, like the following (I use [MathJax][mathjax] here).
 
-$$ E = m \cdot c^2 $$
+$ E = m \cdot c^2 $
 
 {#eq:matter-energy}
 
