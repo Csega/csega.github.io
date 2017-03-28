@@ -23,6 +23,7 @@ The recipe is simple.
     {% endhighlight %}
 
 3. And you are done! These two lines will do two things. It will allow you to use equations through the entire site, everywhere you want. The second thing is, that you can use equations with auto numbering using two dollar signs. For example, this equation <code>$$ E = m\cdot c^2 $$</code> will look like this:
+
     $$ E = M\cdot c^2 \label{eq:mc2} $$
 
     But you can use inline equations too, with one dollar sign, like this: <code>$ J(x) = \int{L(t, x, \dot{x}) dt} \$</code>. The equation above will render to this: $ J(x) = \int{L(t, x, \dot{x}) dt} $.
