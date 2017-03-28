@@ -18,7 +18,6 @@ The recipe is simple.
        <head>
        ...
        <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
        <script type="text/x-mathjax-config">
          MathJax.Hub.Config({
            tex2jax: {
@@ -26,6 +25,8 @@ The recipe is simple.
              processEscapes: true
            }
          });
+       </script>
+       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
        </head>
     {% endhighlight %}
 
