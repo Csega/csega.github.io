@@ -22,7 +22,7 @@ The recipe is simple.
        </head>
     {% endhighlight %}
 
-3. And you are done! These two lines will do two things. It will allow you to use equations through the entire site, everywhere you want. The second thing is, that you can use equations with auto numbering using two dollar signs. For example, this equation <code>$$ E = m\cdot c^2 $$</code> will look like this:
+3. And you are done! These two lines will do two things. It will allow you to use equations through the entire site, everywhere you want. The second thing is, that you can use equations with auto numbering using two dollar signs. For example, this equation <code>$$ E = m\cdot c^2 \label{eq:mc2}$$</code> will look like the equation below and you can refer to it as <code>\ref{eq:mc2}</code> (which will render to this: \ref{eq:mc2}).
 
     $$ E = M\cdot c^2 \label{eq:mc2} $$
 
