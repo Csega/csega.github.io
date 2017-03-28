@@ -14,18 +14,18 @@ The recipe is simple.
 1. Go to your \_includes/head.html in your Jekyll folder structure.
 
 2. Put the following code snippet there (before the </head> tag).
-   {% highlight html %}
+    {% highlight html %}
        <head>
        ...
        <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
        </head>
-   {% endhighlight %}
+    {% endhighlight %}
 
-3. And you are done! These two lines will do two things. It will allow you to use equations through the entire site, everywhere you want. The second thing is, that you can use equations with auto numbering using two dollar signs. For example, this equation \$\$ E = m\cdot c^2 \$\$ will look like this:
-   $$ E = M\cdot c^2 \label{eq:mc2} $$
+3. And you are done! These two lines will do two things. It will allow you to use equations through the entire site, everywhere you want. The second thing is, that you can use equations with auto numbering using two dollar signs. For example, this equation <code>$$ E = m\cdot c^2 $$</code> will look like this:
+    $$ E = M\cdot c^2 \label{eq:mc2} $$
 
-   But you can use inline equations too, with one dollar sign, like this: \$ J(x) = \int{L(t, x, \dot{x}) dt} \$. The equation above will render to this:$ J(x) = \int{L(t, x, \dot{x}) dt} $.
+    But you can use inline equations too, with one dollar sign, like this: \$ J(x) = \int{L(t, x, \dot{x}) dt} \$. The equation above will render to this:$ J(x) = \int{L(t, x, \dot{x}) dt} $.
 
 That's all folks! (For today.)
 
