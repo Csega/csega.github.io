@@ -6,12 +6,12 @@ categories: mypost
 ---
 # Introduction
 
-Yesterday I faced a problem, where I had to determine the timezone information for a given time and date, and using this information I had to convert the given time to a UTC timestamp. To give it a twist, I had to do it with microsecond precision, instead of the standard second stuff. This latter is just an additional multiplication, so not a big deal. However, it took time to get the correct timezone information, since I live in CET zone (Central European Time) with DST (daylight saving time), so sometimes the time zone is UTC+1, and sometimes it's UTC+2 (this is also called Central European Summer Time, or CEST).
-In the end I found the indications to the solution on Stackoverflow, but I couldn't find the correct article again, when I started to write this post. But it's worth to note: Stackoverflow is always your friend. Even if you have to search through it sometimes.
+Yesterday I faced a problem, where I had to determine the timezone information for a given time and date, and using this information I had to convert the given time to a UTC timestamp. To give it a twist, I had to do it with microsecond precision, instead of the standard second stuff. This latter is just an additional multiplication, so not a big deal. However, it took time to get the correct timezone information, since I live in CET zone (Central European Time) with DST (Daylight Saving Time), so sometimes the time zone is UTC+1, and sometimes it's UTC+2 (this is also called Central European Summer Time, or CEST).
+In the end I found the indications to the solution on Stackoverflow, but I couldn't find the correct article again, when I started to write this post. But it's worth to note: Stackoverflow is always your friend. Even if you have to search through it sometimes. If you want to read a summary about the dangers of using time zones in Python, I recommend [this][python-and-timezones] article.
 
 # How to do it?
 Once you know the recipe, it's fairly simple. Okay, *maybe* you have to use four Python packages to get on with it, but the important is, that in the end, you get the correct answer.
-The trick is, that you can get the time offset for a given date using the pytz.timezone('Timezone name') object. After having this object (name it to 'cet' for example), you will get the offset for a *given date* using the cet.utcoffset(date) function, where date is a datetime.datetime object. After that you just have to convert everything to the commond ground (let's say, microseconds), and voila: you are ready. I wrote a short example code for this.
+The trick is, that you can get the time offset for a given date using the pytz.timezone('Timezone name') object. After having this object (name it to 'cet' for example), you will get the offset for a *given date* using the cet.utcoffset(date) function, where date is a datetime.datetime object. After that you just have to convert everything to the common ground (let's say, microseconds), and voila: you are ready. I wrote a short example code for this.
 
     {% highlight html %}
     import datetime
@@ -41,3 +41,5 @@ The trick is, that you can get the time offset for a given date using the pytz.t
     {% endhighlight %}
 
 That's all for today, folks. I hope you enjoyed it. :)
+
+[python-and-timezones]: https://julien.danjou.info/blog/2015/python-and-timezones
