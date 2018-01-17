@@ -24,6 +24,11 @@ And add this to your [IDL startup file][idl-startup-file] probably in your HOME 
     SETENV,'PYTHONHOME=C:\ProgramFiles\WinPython-64bit-3.6.1.0Qt5\python-3.6.1.amd64'
     SETENV,'PATH='+GETENV("PATH")+'C:\Program Files\WinPython-64bit-3.6.1.0Qt5\python-3.6.1.amd64\Scripts;C:\Program Files\WinPython-64bit-3.6.1.0Qt5\python-3.6.1.amd64;C:\Program Files\WinPython-64bit-3.6.1.0Qt5;C:\Program Files\WinPython-64bit-3.6.1.0Qt5\scripts;C:\Program Files\Harris\IDL86\lib\bridges;'
 
+And in the end, run the following command from the command line:
+
+    > cd C:\Program Files\Harris\IDL86\lib\bridges
+    > python setup.py install
+
 And you are done! Now you can try your shiny new bridge from both ends.
 
 Python:
