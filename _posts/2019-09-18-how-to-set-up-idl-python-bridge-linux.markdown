@@ -108,7 +108,7 @@ For this, you should get a vector with 100 elements printed on your screen.
 
 Using IDL with Python under linux is not easy, a few hacks need to be applied (especially the python3 --> python renaming), but after that, you have a nice, running bridge in both direction.
 
-I hope you find this tutorial useful, please contact me!
+I hope you find this tutorial useful. If you have any questions/comments/suggestions, please contact me!
 
 [idl-python-bridge]: http://www.harrisgeospatial.com/docs/Python.html
 [idl-startup-file]: http://www.harrisgeospatial.com/docs/StartupFiles.html
