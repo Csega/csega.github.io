@@ -17,6 +17,14 @@ One word about the spelling. You can find real time, real-time or realtime in th
 
 There are some article about what is realtime in the computer system sense and what subcategories there are (hard or soft realtime etc.). I don't want to go into much details, but if you are interested, [Wikipedia][Wikipedia-realtime-computing] has a quite good summary. (If you can find better ones, then please send me and I'll put them here as well. ;) ) The main thing is, that in a realtime environment, you *have to* get answers from the system in a well-defined time-frame (one way or another).
 
+I found a few description/tutorials about this topic, I share them here without any guarantee or quality check.
+
+1. [Real-time Control Systems: A Tutorial][realtime-control-tutorial]
+2. [Fundamentals of real-time processing in automation and control][fundamentals-of-realtime-processing]
+3. [Real-time control systems: A Tutorial][realtime-control-tutorial2]
+4. [Real-Time Systems][realtime-systems]
+5. [Real-Time Control System and Real-Time Networks][realtime-control-and-network] (The full lecture is [here][module5-link].)
+
 ## Realtime kernels in Linux distributions
 
 There are Linux distributions with realtime kernel packages (e.g. [Manjaro Linux][Manjaro-realtime-kernel] or [CentOS 7][centos-7-realtime-kernel] or [Rocky Linux 8][rocky-linux-8-realtime-kernel]). Interestingly enough, Ubuntu does not provide (to my knowledge) an out-of-the-box realtime kernel by default. You have to patch your desired kernel to show realtime capabilities. So in the next section I'll look into that matter.
@@ -44,6 +52,13 @@ This latter will install *idlpy* for every user. To test whether the installatio
 ```
 
 [Wikipedia-realtime-computing]: https://en.wikipedia.org/wiki/Real-time_computing
+[realtime-control-tutorial]: http://www.kelm.ftn.uns.ac.rs/literatura/mrv/P150.pdf
+[fundamentals-of-realtime-processing]:https://www.controleng.com/articles/fundamentals-of-real-time-processing-in-automation-and-control/
+[realtime-control-tutorial2]: http://ppedreiras.av.it.pt/resources/str1112/apresentacoes_pesquisa/Real-time-CS.pdf
+[realtime-systems]: https://users.ece.cmu.edu/~koopman/des_s99/real_time/
+[realtime-control-and-network]: http://www.ipnet.agh.edu.pl/Materials1/Module5/Lecture2.pdf
+[module5-link]: http://www.ipnet.agh.edu.pl/Materials1/Module5/
+
 [Manjaro-realtime-kernel]: https://discover.manjaro.org/packages/linux-rt-lts-manjaro
 [centos-7-realtime-kernel]: http://mirror.centos.org/centos/7/rt/x86_64/Packages/
 [rocky-linux-8-realtime-kernel]: https://repo.uccs.edu/rocky-linux/8/RT/x86_64/os/Packages/
