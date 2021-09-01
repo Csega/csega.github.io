@@ -25,6 +25,16 @@ I found a few description/tutorials about this topic, I share them here without 
 4. [Real-Time Systems][realtime-systems]
 5. [Real-Time Control System and Real-Time Networks][realtime-control-and-network] (The full lecture is [here][module5-link].)
 
+## Realtime testing
+
+Here is a few sources I found about realtime testing.
+
+1. [Real-Time Testing Best Practices][realtime-testing-best-practices]
+2. [RT-Tests][rt-tests]
+3. [Real-time Linux materials][realtime-linux]
+4. [Real-time Linux Communications][realtime-linux-communications] (And the [paper on Arxiv][rtl-com-paper].)
+5. [Red Hat Linux realtime kernel material][red-hat-realtime-material]
+
 ## Realtime kernels in Linux distributions
 
 There are Linux distributions with realtime kernel packages (e.g. [Manjaro Linux][Manjaro-realtime-kernel] or [CentOS 7][centos-7-realtime-kernel] or [Rocky Linux 8][rocky-linux-8-realtime-kernel]). Interestingly enough, Ubuntu does not provide (to my knowledge) an out-of-the-box realtime kernel by default. You have to patch your desired kernel to show realtime capabilities. So in the next section I'll look into that matter.
@@ -58,6 +68,12 @@ This latter will install *idlpy* for every user. To test whether the installatio
 [realtime-systems]: https://users.ece.cmu.edu/~koopman/des_s99/real_time/
 [realtime-control-and-network]: http://www.ipnet.agh.edu.pl/Materials1/Module5/Lecture2.pdf
 [module5-link]: http://www.ipnet.agh.edu.pl/Materials1/Module5/
+[realtime-testing-best-practices]: https://elinux.org/Realtime_Testing_Best_Practices
+[rt-tests]: https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/rt-tests
+[realtime-linux]: https://wiki.linuxfoundation.org/realtime/start
+[realtime-linux-communications]: https://medium.com/hackernoon/real-time-linux-communications-2faabf31cf5e
+[rtl-com-paper]: https://arxiv.org/pdf/1808.10821.pdf
+[red-hat-realtime-material]: https://www.redhat.com/sysadmin/real-time-kernel
 
 [Manjaro-realtime-kernel]: https://discover.manjaro.org/packages/linux-rt-lts-manjaro
 [centos-7-realtime-kernel]: http://mirror.centos.org/centos/7/rt/x86_64/Packages/
