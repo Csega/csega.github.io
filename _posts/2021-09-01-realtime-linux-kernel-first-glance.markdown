@@ -25,9 +25,11 @@ I found a few description/tutorials about this topic, I share them here without 
 4. [Real-Time Systems][realtime-systems]
 5. [Real-Time Control System and Real-Time Networks][realtime-control-and-network] (The full lecture is [here][module5-link].)
 
+However, in this post I mainly concern realtime kernels in Linux systems, which are ensure this kind of behaviour from the kernel side.
+
 ## Realtime testing
 
-Here is a few sources I found about realtime testing.
+Here is a few sources I found about realtime kernel testing.
 
 1. [Real-Time Testing Best Practices][realtime-testing-best-practices]
 2. [RT-Tests][rt-tests]
@@ -48,18 +50,6 @@ According to [this][Stackoverflow-ubuntu-realtime-kernel-patch] Stackoverflow po
 ## How to install Ubuntu low-latency kernel
 
 This is much easier than the realtime kernel patching, since there is a package ready for install. I use Ubuntu 20.04 (focal). The package can be found in the package index [here][ubuntu-lowlatency-kernel-package].
-
-## Old materials from previous post
-
-```bash
-sudo python3 setup.py install
-```
-
-This latter will install *idlpy* for every user. To test whether the installation was successful, type the following snippet into your Python3 command prompt.
-
-```python
->>> from idlpy import *
-```
 
 [Wikipedia-realtime-computing]: https://en.wikipedia.org/wiki/Real-time_computing
 [realtime-control-tutorial]: http://www.kelm.ftn.uns.ac.rs/literatura/mrv/P150.pdf
