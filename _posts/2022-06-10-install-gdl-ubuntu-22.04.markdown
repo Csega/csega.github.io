@@ -61,5 +61,30 @@ Wait for make to finish and the navigate to the build/src folder and type:
 
 And now... GDL is ready to use! :)
 
+## GUI
+
+GDL has a graphical user interface called GDLDE. To install this, you'll need to do the following.
+
+Clone the gdlde repository.
+
+```bash
+git clone https://github.com/gnudatalanguage/gdlde.git
+```
+
+Install Java 11 or higher.
+
+```bash
+sudo apt-get install openjdk-18-jdk
+```
+
+Then -- according to the [homepage][gdlde github page] -- you just need to type the following in the topmost gdlde directory.
+
+```bash
+./mvnw clean verify
+```
+
+The compiled binaries will be in the folder ```product/target/products/gdlde.product```.
+
 
 [GDL]: https://github.com/gnudatalanguage/gdl
+[gdlde github page]: https://github.com/gnudatalanguage/gdlde
