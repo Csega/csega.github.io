@@ -29,7 +29,7 @@ There is a website, at which you can ask for codes, CAD-models, drawings etc. It
 
 I list and describe here only the full exoskeleton designs and mention a bit the others (maybe they'll be good for the own design).
 
-1. [RehabiliGait](https://www.adnanjafferjee.com/rehabiligait) ([detailed PDF description](https://www.adnanjafferjee.com/_files/ugd/1e1596_f6cb11e3ed6c41548b829d3b0e0802f6.pdf)). Seems quite complete. With designs, software and theory.
+1. [RehabiliGait](https://www.adnanjafferjee.com/rehabiligait) ([detailed PDF description](https://www.adnanjafferjee.com/_files/ugd/1e1596_f6cb11e3ed6c41548b829d3b0e0802f6.pdf)). Seems quite complete. With designs, software ([GitHub repo](https://github.com/dstock21/Senior-Design)) and theory.
 2. [Robotic hand project](https://github.com/morianrojas/Robotic-Hand-controlled-by-different-interfaces) (not found the drawings yet). Software way seems to be complete.
 3. [Lightweight Exoskeleton with Assistive Power (LEAP)](https://github.com/ziteh/LEAP): seems to be a complete work. Need to investigate. There is a [newer repo](https://github.com/ziteh/LEAP-upper-limb), which only contains code.
 
