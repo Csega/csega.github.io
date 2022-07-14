@@ -35,3 +35,5 @@ I list and describe here only the full exoskeleton designs and mention a bit the
 
 
 This is it so far. I intend to continue this research, this is a base for now.
+
+EDIT (2022. July 14.): It is useful to check [Thingiverse](https://www.thingiverse.com/) for designs as well, e.g. [this](https://www.thingiverse.com/thing:3675305) seems kind of cool.
