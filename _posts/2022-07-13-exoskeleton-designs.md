@@ -37,3 +37,5 @@ I list and describe here only the full exoskeleton designs and mention a bit the
 This is it so far. I intend to continue this research, this is a base for now.
 
 EDIT (2022. July 14.): It is useful to check [Thingiverse](https://www.thingiverse.com/) for designs as well, e.g. [this](https://www.thingiverse.com/thing:3675305) seems kind of cool.
+
+EDIT (2022. July 26.): I also found [Printables](https://www.printables.com/), [Free3D](https://free3d.com/), [Howtomechatronics](https://howtomechatronics.com/) (this is more like electronics projects, not 3D models), [Instructables](https://www.instructables.com/) (also more like a DIY than models), [3DContentCentral](https://www.3dcontentcentral.com), [All3DP](https://all3dp.com/), a [collection for 3D model sites](https://en.eagle.cool/blog/post/best-websites-to-download-free-3d-model-with-high-quality).
